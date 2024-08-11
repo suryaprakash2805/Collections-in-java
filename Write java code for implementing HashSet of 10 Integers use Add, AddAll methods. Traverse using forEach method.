@@ -1,0 +1,8 @@
+import java.util.*;
+class Code1{
+  public static void main(String args[]){
+    Set<Integer> set = new HashSet<>();
+    Collections.addAll(set,5,10,15,20,25,30,35,40,45,50);
+    set.forEach(n->{System.out.print(n+" ");});
+  }
+}
