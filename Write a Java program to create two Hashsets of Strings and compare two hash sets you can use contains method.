@@ -1,0 +1,14 @@
+import java.util.*;
+public class Code6 {
+  public static void main(String args[]){
+    Set<String> set1 = new HashSet<>();
+    Collections.addAll(set1,"surya","messi","neymar","ronaldo","foden");
+    Set<String> set2 = new HashSet<>();
+    Collections.addAll(set2,"surya","messi","pele","beckham","jude");
+    set1.forEach(element->{
+      if(set2.contains(element)) {
+        System.out.println(element);
+      }
+    });
+  }
+}
