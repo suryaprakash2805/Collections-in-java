@@ -1,0 +1,28 @@
+import java.util.*;
+public class Code12 {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+        list.add("String1");
+        list.add("String2");
+        list.add("String3");
+        list.add("String4");
+        list.add("String5");
+        list.add("String6");
+        list.add("String7");
+        list.add("String8");
+        list.add("String9");
+        list.add("String10");
+        System.out.println("Traversing the ArrayList:");
+        for (String str : list) {
+            System.out.println(str);
+        }
+        list.clear();
+        System.out.println("Traversing the ArrayList after clearing:");
+        for (String str : list) {
+            System.out.println(str);
+        }
+        if (list.isEmpty()) {
+            System.out.println("The ArrayList is empty.");
+        }
+    }
+}
