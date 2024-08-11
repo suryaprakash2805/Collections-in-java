@@ -1,0 +1,10 @@
+import java.util.*;
+public class Code9 {
+  public static void main(String args[]){
+    Set<String> set1 = new TreeSet<>();
+    Collections.addAll(set1,"surya","messi","neymar","ronaldo","foden");
+    Set<String> set2 = new TreeSet<>();
+    set2.addAll(set1);
+    set2.forEach(element->System.out.println(element));
+  }
+}
