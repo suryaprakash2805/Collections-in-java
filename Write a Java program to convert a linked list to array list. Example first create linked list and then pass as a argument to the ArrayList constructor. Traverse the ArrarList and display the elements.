@@ -1,0 +1,16 @@
+import java.util.*;
+public class Code15 {
+    public static void main(String[] args) {
+        LinkedList<String> linkedList = new LinkedList<>();
+        linkedList.add("String1");
+        linkedList.add("String2");
+        linkedList.add("String3");
+        linkedList.add("String4");
+        linkedList.add("String5");
+        ArrayList<String> arrayList = new ArrayList<>(linkedList);
+        System.out.println("Elements in the ArrayList:");
+        for (String str : arrayList) {
+            System.out.println(str);
+        }
+    }
+}
